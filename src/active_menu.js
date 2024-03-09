@@ -20,7 +20,19 @@ const sectionIds = [
   '#PCA_data',
   '#PCA_code',
   '#PCA_results',
-  '#PCA_conclusion'
+  '#PCA_conclusion',
+  '#Naïve_Bayes',
+  '#Naïve_Bayes_overview',
+  '#Naïve_Bayes_data',
+  '#Naïve_Bayes_code',
+  '#Naïve_Bayes_results',
+  '#Naïve_Bayes_conclusion',
+  '#Decision_Tree',
+  '#Decision_Tree_overview',
+  '#Decision_Tree_data',
+  '#Decision_Tree_code',
+  '#Decision_Tree_results',
+  '#Decision_Tree_conclusion'
 ];
 const sections = sectionIds.map((id) => document.querySelector(id));
 const navItems = sectionIds.map((id) =>
